@@ -123,15 +123,15 @@
                         </DataGrid.ContextMenu>-->
                         <DataGrid.Columns>
                             <DataGridTextColumn 
-                                        Header="STT"
+                                        Header="No."
                                         MinWidth="50"/>
-                            <DataGridTextColumn Header="Mã món ăn"
+                            <DataGridTextColumn Header="ID"
                                          MinWidth="130"/>
-                            <DataGridTextColumn Header="Tên món ăn"
+                            <DataGridTextColumn Header="Name of food"
                                          MinWidth="100"/>
-                            <DataGridTextColumn Header="Đơn vị"
+                            <DataGridTextColumn Header="Unit"
                                         MinWidth="130"/>
-                            <DataGridTextColumn Header="Giá"
+                            <DataGridTextColumn Header="Price"
                                         MinWidth="130"/>
                         </DataGrid.Columns>
                     </DataGrid>

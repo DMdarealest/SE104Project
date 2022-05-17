@@ -29,19 +29,19 @@
                         </DataGrid.ContextMenu>-->
                 <DataGrid.Columns>
                     <DataGridTextColumn 
-                                        Header="STT"
-                                        MinWidth="50"/>
-                    <DataGridTextColumn Header="Mã sảnh"
-                                         MinWidth="130"/>
-                    <DataGridTextColumn Header="Tên sảnh"
+                                        Header="No."
+                                        MinWidth="20"/>
+                    <DataGridTextColumn Header="ID"
                                          MinWidth="100"/>
-                    <DataGridTextColumn Header="Loại sảnh"
-                                        MinWidth="130"/>
-                    <DataGridTextColumn Header="Số lượng bàn tối đa"
-                                        MinWidth="130"/>
-                    <DataGridTextColumn Header="Đơn giá bàn tối thiểu"
-                                        MinWidth="130"/>
-                    <DataGridTextColumn Header="Ghi chú"
+                    <DataGridTextColumn Header="Name"
+                                         MinWidth="130"/>
+                    <DataGridTextColumn Header="Type"
+                                        MinWidth="100"/>
+                    <DataGridTextColumn Header="Maximum number of tables"
+                                        MinWidth="100"/>
+                    <DataGridTextColumn Header="Minimum table price"
+                                        MinWidth="100"/>
+                    <DataGridTextColumn Header="Note"
                                         MinWidth="130"/>                    
                 </DataGrid.Columns>
             </DataGrid>

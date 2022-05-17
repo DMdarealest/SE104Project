@@ -157,7 +157,7 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
 
-                        <TextBlock Text="Number of table:"/>
+                        <TextBlock Text="Number of tables:"/>
                         <TextBox x:Name="txbNumberofTable"
                                  Grid.Column="1"
                                  Width="150"
@@ -191,21 +191,21 @@
                         </DataGrid.ContextMenu>-->
                         <DataGrid.Columns>
                             <DataGridTextColumn 
-                                        Header="STT"
+                                        Header="No."
                                         MinWidth="50"/>
-                            <DataGridTextColumn Header="Mã tiệc cưới"
+                            <DataGridTextColumn Header="ID"
                                          MinWidth="130"/>
-                            <DataGridTextColumn Header="Tên chú rễ"
+                            <DataGridTextColumn Header="Groom's name"
                                          MinWidth="100"/>
-                            <DataGridTextColumn Header="Tên cô dâu"
+                            <DataGridTextColumn Header="Bride's name"
                                         MinWidth="130"/>
-                            <DataGridTextColumn Header="Sảnh"
+                            <DataGridTextColumn Header="Hall"
                                         MinWidth="130"/>                            
-                            <DataGridTextColumn Header="Ngày"
+                            <DataGridTextColumn Header="Day"
                                         MinWidth="130"/>
-                            <DataGridTextColumn Header="Ca"
+                            <DataGridTextColumn Header="Shift"
                                         MinWidth="130"/>
-                            <DataGridTextColumn Header="Số lượng bàn"
+                            <DataGridTextColumn Header="Number of tables"
                                         MinWidth="130"/>
                         </DataGrid.Columns>
                     </DataGrid>

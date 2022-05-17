@@ -81,5 +81,10 @@ namespace SE104Project.View
         {
             this.DragMove();
         }
+
+        private void logoHome_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
     }
 }
